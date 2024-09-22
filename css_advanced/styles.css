@@ -1,374 +1,443 @@
-/* General reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ /* General reset */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
 }
 
 /* Header Styling */
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.principal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 
 .nav-links ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .nav-links li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
 }
 
-/* Header content Section */
-.header content section {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/Object.png') center/cover no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+/* Main Section Styling */
+.main {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/Object.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
 
-.header content section h1 {
-    font-size: 64px;
-    margin-bottom: 10px;
-    font-weight: 700;
+.main h1 {
+  font-size: 64px;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 
-.header content section p {
-    font-size: 24px;
-    margin-bottom: 30px;
-    letter-spacing: 2px;
+.main p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
 }
 
 .cta-button {
-    background-color: #a349a4;
-    color: white;
-    padding: 15px 30px;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
+  background-color: #a349a4;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #822b82;
+  background-color: #822b82;
 }
 
-/* Expert Section Styling */
-.expert-section {
-    margin-top: 50px;
-    text-align: center;
+/* prof Section Styling */
+.prof-section {
+  margin-top: 50px;
+  justify-content: center;
 }
 
-.expert-section h2 {
-    font-size: 32px;
-    color: #ccc;
-    margin-bottom: 40px;
+.prof-section h2 {
+  font-size: 24px;
+  font-weight: lighter;
+  color: #ccc;
+  margin-bottom: 40px; 
 }
 
-.expert-profiles {
-    display: flex;
-    justify-content: space-around;
+.prof-section h2 .highlight {
+  color: #a64af8; /* Matching the purple color in the design */
+}
+
+.prof-profiles {
+  display: flex;
+  justify-content: space-around;
+  padding: auto;
 }
 
 .profile {
-    text-align: center;
+  text-align: center;
 }
 
 .profile img {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    border-spacing: 15px;
+  border-radius: 40%;
+  width: 80px;
+  height: 80px;
+  border-spacing: 100px;
+  
 }
 
 .profile h3 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 10px;
-}
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  border-spacing: 80px;
+  text-align: justify;
+  
 
+}
 .profile p {
-    font-size: 14px;
-    color: white;
+  font-size: 8px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-style: italic;
+  text-align: justify;
 }
 
-section {
-    padding: 60px 20px;
-    text-align: center;
+section { 
+  padding: 80px 40px;
+  text-align: center;
 }
 
 /* Testimonial Section Styles */
 
 .testimonial {
-    background-color: #ae46e7; /* Violet background */
-    padding: 40px 20px;
+  background-color: #ae46e7; /* Violet background */
+  padding: auto;
 }
 
 .testimonial-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .testimonial-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 blockquote {
-    font-size: 18px;
-    color: white;
-    text-align: left;
-    max-width: 600px;
+  font-size: 14px;
+  color: white;
+  text-align: left;
+  max-width: 600px;
 }
 
 blockquote p {
-    font-style: italic;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 blockquote footer {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 blockquote footer strong {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 blockquote footer span {
-    font-style: italic;
-    color: #ccc;
+  font-style: italic;
+  color: #ccc;
 }
 
-/* Tutorial Section Styling */
-.Tutorial Section {
-    padding: 40px;
-    text-align: center;
-  }
+/* Section Styling */
+.popular-tutorials {
+  padding: 40px;
+  text-align: center;
+}
+
+.popular-tutorials h2 {
+  font-size: 34px;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 40px; 
+}
+
+.popular-tutorials h2 .highlight {
+  color: #a64af8; /* Matching the purple color in the design */
+}
+
+/* Tutorials Container */
+.tutorials-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tutorial Card Styling */
+.tutorial-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 250px;
+  text-align: left;
+  position: relative;
+}
+
+.tutorial-card .star {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.tutorial-card .rate {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
   
-  .Tutorial Section h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
+}
+.tutorial-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.tutorial-card .play {
+ height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 50px;
+  right: 90px;
   
-  .Tutorial Section h2 .highlight {
-    color: #a64af8; /* Matching the purple color in the design */
-  }
-  
-  /* Tutorial Card Styling */
-  .tutorial-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 250px;
-    text-align: left;
-  }
-  
-  .tutorial-card img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .tutorial-card h3 {
-    font-size: 20px;
-    margin: 10px 0;
-    font-weight: bold;
-  }
-  
-  .tutorial-card p {
-    margin: 0;
-    font-size: 14px;
-    color: #6c757d;
-  }
-  
-  .tutorial-card .duration {
-    margin-top: 5px;
-    font-weight: bold;
-  }
-  
-  /* General Text Styling */
-  .Tutorial Section p {
-    font-size: 14px;
-  }
-  
-  /* Membership Section Styling */
+}
+.tutorial-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.tutorial-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.tutorial-card .duration {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* General Text Styling */
+.popular-tutorials p {
+  font-size: 14px;
+}
+
+/* Membership Section Styling */
 .membership {
-    padding: 60px 20px;
-    background-color: #0c1821; /* Dark background color */
-    text-align: center;
-  }
-  
-  .membership h2 {
-    font-size: 32px;
-    color: #fff;
-    margin-bottom: 40px;
-  }
-  
-  .membership h2 .highlight {
-    color: #a64af8; /* Purple color for "Free" */
-  }
-  
-  /* Benefits Container */
-  .benefits-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Individual Benefit */
-  .benefit {
-    text-align: center;
-    color: #fff;
-    max-width: 200px;
-  }
-  
-  .benefit .icon {
-    font-size: 48px;
-    color: #a64af8; /* Purple color for icons */
-    display: block;
-    margin-bottom: 15px;
-  }
-  
-  .benefit h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .benefit p {
-    font-size: 14px;
-    color: #c0c0c0; /* Lighter gray for paragraph text */
-  }
-  
-  /* CTA Button */
-  .cta-button {
-    display: inline-block;
-    margin-top: 40px;
-    padding: 15px 30px;
-    background-color: #a64af8;
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    background-color: #8b3ec1; /* Slightly darker purple on hover */
-  }
-  
+  padding: 60px 20px;
+  background-color: #071629; /* Dark background color */
+
+}
+
+.membership h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.membership h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.membership p {
+  color: #fff;
+  text-align: center;
+}
+
+/* Benefits Container */
+.benefits-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Benefit */
+.benefit {
+  text-align: center;
+  color: #fff;
+  max-width: 200px;
+  align-items: center;
+}
+
+.benefit .icon {
+  font-size: 48px;
+  color: #a64af8; /* Purple color for icons */
+  display: flex;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+}
+
+.benefit h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.benefit p {
+  font-size: 14px;
+  color: #c0c0c0; /* Lighter gray for paragraph text */
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 30px;
+  background-color: #a64af8;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #8b3ec1; /* Slightly darker purple on hover */
+}
+
 
 .faq {
-    padding: 60px 20px;
-    background-color: #fff; /* White background */
-    text-align: center;
-  }
-  
-  .faq h2 {
-    font-size: 36px;
-    font-weight: 400;
-    color: #333; /* Dark color for the title */
-    margin-bottom: 40px;
-    letter-spacing: 3px; /* Adding letter spacing for stylized effect */
-  }
-  
-  /* FAQ Container */
-  .faq-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Individual FAQ Item */
-  .faq-item {
-    text-align: left;
-  }
-  
-  .faq-item h3 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333; /* Darker color for questions */
-    margin-bottom: 10px;
-  }
-  
-  .faq-item p {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #666; /* Lighter gray for answers */
-  }
-  
+  padding: 60px 20px;
+  background-color: #fff; /* White background */
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #333; /* Dark color for the title */
+  margin-bottom: 40px;
+  letter-spacing: 3px; /* Adding letter spacing for stylized effect */
+}
+
+/* FAQ Container */
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 920px;
+height: 707px;
+flex-shrink: 0;
+}
+
+/* Individual FAQ Item */
+.faq-item {
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Darker color for questions */
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666; /* Lighter gray for answers */
+}
+
+section { 
+  padding: 80px 40px;
+  text-align: center;
+}
 /* Footer Styles */
 footer {
-    background-color: #333; /* Dark background color */
-    color: white; /* White text color */
-    text-align: center; /* Center text */
-    padding: 20px; /* Padding around the footer */
-    position: relative; /* Positioning context for child elements */
-    bottom: 0; /* Stick to the bottom */
-    width: 100%; /* Full width */
+  background-color: #071629; /* Dark background color */
+  color: white; /* White text color */
+  padding: 20px; /* Padding around the footer */
+  position: relative; /* Positioning context for child elements */
+  bottom: 0; /* Stick to the bottom */
+  width: 100%; /* Full width */
+  height: 100;
 }
 .footer-content {
-    max-width: 1200px; /* Limit width */
-    margin: 0 auto; /* Center content */
+  max-width: 1200px; /* Limit width */
+  margin: 0 auto; /* Center content */
 }
+.footer-content p {
+  text-align: center;
+  color: #333;
+  font-size: small;
+}
+
 .social-icons {
-    margin-top: 10px; /* Space above icons */
-}
-.footer-content-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+  margin-top: 10px; /* Space above icons */
+  text-align: right;
 }
 .social-icons a {
-    color: white; /* White icons */
-    margin: 0 10px; /* Space between icons */
-    text-decoration: none; /* No underline on links */
-    font-size: 20px; /* Icon size */
+  color: white; /* White icons */
+  margin: 0 10px; /* Space between icons */
+  text-decoration: none; /* No underline on links */
+  font-size: 20px; /* Icon size */
 }
 .social-icons a:hover {
-    color: #ff4081; /* Change color on hover */
+  color: #ff4081; /* Change color on hover */
+}
+
+.footer-icon {
+  text-align: left;
+  margin: 0 10px;
 }

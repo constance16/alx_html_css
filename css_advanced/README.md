@@ -1,6 +1,6 @@
 # Smile School - Landing Page
 
-This project is a simple landing page for Smile School, an educational platform focused on providing tutorials for enhancing your smile. The page is designed using HTML and basic CSS, utilizing Flexbox for layout and FontAwesome for icons. It includes a header with navigation links, multiple sections highlighting tutorials, testimonials, and a footer with social media links.
+This project is a simple landing page for Smile School, an educational platform that provides tutorials for enhancing your smile. The page is designed using HTML and basic CSS, utilizing Flexbox for layout and FontAwesome for icons. It includes a header with navigation links, multiple sections highlighting tutorials, and testimonials, and a footer with social media links.
 
 ## Features
 
@@ -30,7 +30,7 @@ This project is a simple landing page for Smile School, an educational platform 
 2. Open the `index.html` file in any web browser.
 3. Explore the various sections including featured tutorials, testimonials, and more.
 
-## Sample Code
+## Sample Code - Header and Footer excluding the main
 
 ```html
 <header>
@@ -43,3 +43,18 @@ This project is a simple landing page for Smile School, an educational platform 
         </ul>
     </nav>
 </header>
+
+ <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="./Images/logo.png" alt="smilesland" class=" footer-icon">
+            </div>
+            <div class="social-icons">
+                <a href="#" title="Facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="Twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" title="LinkedIn" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="#" title="Instagram" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+            <p>&copy; SmileSchool 2020</p>
+        </div>
+    </footer>

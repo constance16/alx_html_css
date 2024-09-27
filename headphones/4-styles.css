@@ -1,0 +1,388 @@
+/* General reset */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  color: #fff;
+}
+
+.body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  width: 1410px;
+  height: 3006px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Source Sans Pro";
+  max-height: 100vh;
+}
+
+.header {
+  background-image: url(images/headphones_hero_1.jpg);
+}
+
+.logo {
+  font-size: small;
+  justify-content: left;
+  text-align: left;
+  min-height: min-content;
+  width: 160.962px;
+  height: 31.18px;
+  flex-shrink: 0;
+  margin-top: 10px;
+}
+
+.nav-link {
+  height: 15px;
+  display: flex;
+  float: right;
+  margin-top: 10px;
+}
+.nav-text {
+  margin: 10px;
+  text-decoration: none;
+}
+.nav:hover {
+  background-color: #ff6565;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+  margin-top: 100px;
+  font-weight: 700;
+}
+
+.main p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.cta-button {
+  background-color: #ff6565;
+  color: white;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 35px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff6565;
+  opacity: 0.9;
+}
+
+.main-text2 {
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-text2 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Main section */
+
+.attribute-text-h2 {
+  color: black;
+  margin-top: 100px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.attribute-main p {
+  color: black;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.attribute-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.icon1 img {
+  height: 65.36px;
+  width: 94.2;
+}
+
+.icon2 img {
+  height: 65.36px;
+  width: 94.2;
+}
+
+.icon3 img {
+  height: 65.36px;
+  width: 94.2;
+}
+
+.icon4 img {
+  height: 65.36px;
+  width: 94.2;
+}
+
+.icon h2 {
+  color: black;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.icon p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* our result section */
+
+.header2 {
+  background-image: url(images/headphones_hero_2.jpg);
+}
+.our-result-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Source Sans Pro";
+  max-height: 100vh;
+}
+.our-result-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.our-result-content h2 {
+  font-size: 32px;
+  margin-top: 120px;
+  margin-bottom: 70px;
+  font-weight: 600;
+}
+
+.our-result-content p {
+  font-size: 18px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.pentagon {
+  display: flex;
+  /* justify-content: space-around; Creates space between the pentagons */
+  align-items: center;
+  margin-top: 80px;
+}
+
+.pentagon1 {
+  width: 190px;
+  height: 190px;
+  background-color: #ff6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.pentagon1 p {
+  margin: 0;
+  position: absolute;
+  font-size: 40px;
+}
+
+.pentagon1 h3 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.contact-section {
+  padding: 60px, 20px;
+  background: color #f9f9f9;
+  text-align: center;
+  height: 65vh;
+}
+
+.contact-form {
+  width: 335px;
+  height: 310px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.contact-form h2 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.group label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* .group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+} */
+
+.group input:focus,
+.group textarea:focus {
+  border-color: #ff6565;
+  box-shadow: 8px, 4px, 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  /* resize: vertical; */
+  min-height: 60px;
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-bar {
+  background-color: #ff6565;
+  color: white;
+  /* padding: 15x, 30px; */
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  width: 162px;
+  height: 44px;
+  margin-top: 20px;
+}
+.submit-bar:hover {
+  background-color: #095f16;
+}
+
+.submit-bar:active {
+  transform: scale(0.98);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #071629; 
+  color: white; 
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 1405px;
+  height: 255px;
+  flex-shrink: 0;
+  justify-content: center;
+
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-content p {
+  text-align: center;
+  color: grey;
+  font-size: small;
+  margin: 40px;
+}
+
+.social-icons {
+  /* margin-top: 8px; */
+  text-align: right;
+  /* margin-left: 100px; */
+}
+.social-icons img {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none; 
+  font-size: 20px; /
+}
+.social-icons a:hover {
+  color: #ff4081;
+}
+
+.footer-icon {
+  font-size: small;
+  justify-content: left;
+  text-align: left;
+  min-height: min-content;
+  width: 160.962px;
+  height: 31.18px;
+  flex-shrink: 0;
+  margin-top: 80px;
+}
